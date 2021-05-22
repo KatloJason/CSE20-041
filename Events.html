@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 25px;
+            text-decoration: underline;
+        }
+
+
+        .content {
+            position: relative;
+            margin-left: 100px;
+            top: 858px;
+            left: 50%;
+        }
+
+        /*Media Queries*/
+
+        @media only screen and (min-width: 0px) and (max-width : 600px) {
+            p {
+                color: green;
+            }
+
+            .content {
+                top: 650%;
+                width: 90%;
+                left: 10%;
+                margin-right: 80px;
+            }
+
+            .sidebar {
+                display: none;
+            }
+
+            #pneperformance {
+                width: 300px;
+                margin-left: 0;
+            }
+
+            #oceanview {
+                margin-left: 0;
+            }
+
+            #fireworks {
+                margin-left: 0;
+                width: 300px;
+            }
+        }
+
+        /*Tablets*/
+
+        @media only screen and (min-width: 481px) and (max-width : 600px) {
+            .content {
+                top: 269%;
+                width: 90%;
+                left: 30%;
+                margin-right: 80px;
+            }
+
+            .sidebar {
+                display: none;
+            }
+
+            #pneperformance {
+                width: 300px;
+                margin-left: 0;
+            }
+
+            #oceanview {
+                margin-left: 0;
+            }
+
+            #fireworks {
+                margin-left: 0;
+                width: 300px;
+            }
+        }
+
+        @media only screen and (min-width: 601px) and (max-width : 744px) {
+            p {
+                color: yellow;
+            }
+
+            .content {
+                top: 350%;
+                width: 90%;
+                left: 34%;
+                margin-right: 80px;
+            }
+
+            .sidebar {
+                display: none;
+            }
+
+            #pneperformance {
+                width: 300px;
+                margin-left: 0;
+            }
+
+            #oceanview {
+                margin-left: 0;
+            }
+
+            #fireworks {
+                margin-left: 0;
+                width: 300px;
+            }
+        }
+
+        @media only screen and (min-width: 745px) and (max-width : 820px) {
+            p {
+                color: blue;
+            }
+
+            .content {
+                top: 180%;
+                width: 90%;
+                left: 34%;
+                margin-right: 80px;
+            }
+
+            .sidebar {
+                display: none;
+            }
+
+            #pneperformance {
+                width: 300px;
+                margin-left: 0;
+            }
+
+            #oceanview {
+                margin-left: 0;
+            }
+
+            #fireworks {
+                margin-left: 0;
+                width: 300px;
+            }
+        }
+
+        @media only screen and (min-width: 821px) and (max-width: 1200px) {
+            p {
+                color: crimson;
+            }
+
+            .content {
+                top: 230%;
+                width: 80%;
+                left: 34%;
+                margin-right: 80px;
+            }
+
+            .sidebar {
+                position: fixed;
+                width: 335px;
+                top: 90px;
+                left: 0;
+                bottom: 20px;
+                background-color: white;
+                border-radius: 10px;
+            }
+
+            #pneperformance {
+                width: 300px;
+                margin-left: 0;
+            }
+
+            #oceanview {
+                margin-left: 0;
+            }
+
+            #fireworks {
+                margin-left: 0;
+                width: 300px;
+            }
+        }
+
+        @media only screen and (min-width: 822px) and (max-width: 1000px) {
+            p {
+                color: orangered;
+            }
+
+            .content {
+                top: 250%;
+                width: 90%;
+                left: 40%;
+                margin-right: 80px;
+            }
+
+            .sidebar {
+                display: none;
+            }
+
+            #pneperformance {
+                width: 300px;
+                margin-left: 0;
+            }
+
+            #oceanview {
+                margin-left: 0;
+            }
+
+            #fireworks {
+                margin-left: 0;
+                width: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="divcontent">
+
+        <!--=======================
+        
+        Navbar start
+    
+  =========================-->
+
+        <div class="navbar">
+
+            <img class="logo" src="images/images/Vancouverlogo.png" alt="site logo" title="site logo" />
+
+            <nav>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="lifestyle.html">LIFESTYLE</a></li>
+                    <li><a href="Events.html">EVENTS</a></li>
+                    <li><a href="contacts.html">CONTACT US</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+        <!--=====================
+
+          Navbar end
+
+=========================-->
+
+
+
+        <!--==============
+
+    Sidebar start
+
+==================-->
+        <div class="contentandsidebar">
+
+            <aside class="sidebar">
+                <section id="sidebar-links">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a class="subsection" href="about.html#history">History</a></li>
+                        <li><a class="subsection" href="about.html#fascinatingfacts">Fascinating Facts</a></li>
+                        <li><a class="subsection" href="about.html#whyvancouver">Why Vancouver ?</a></li>
+                        <li><a href="lifestyle.html">LIFESTYLE</a></li>
+                        <li><a class="subsection" href="lifestyle.html#touristattractions">Tourist Attractions</a></li>
+                        <li><a class="sub-subsection" href="lifestyle.html#natural">Natural Attractions</a></li>
+                        <li><a class="sub-subsection" href="lifestyle.html#purposebuilt">Purpose Built Attractions</a>
+                        </li>
+                        <li><a class="sub-subsection" href="lifestyle.html#heritage">Heritage Attractions</a></li>
+                        <li><a class="sub-subsection" href="lifestyle.html#food">Vancouver Speciality Cuisine</a></li>
+                        <li><a class="subsection" href="lifestyle.html#lifestyledifficulties">Lifestyle Difficulties</a>
+                        </li>
+                        <li><a class="subsection" href="lifestyle.html#positiveaspects">Positive Aspects</a></li>
+                        <li><a href="Events.html">EVENTS</a></li>
+                        <li><a class="subsection" href="#celebrationoflight">Celebration Of Light</a></li>
+                        <li><a class="subsection" href="#vancouvermarathon">BMO Vancouver Marathon</a></li>
+                        <li><a class="subsection" href="#thepnefair">The PNE Fair</a></li>
+                    </ul>
+
+                </section>
+            </aside>
+
+            <!--===============
+    
+    Sidebar end
+
+==================-->
+
+
+
+            <!--=====================
+        
+        Content section start
+    
+    =========================-->
+
+            <section class="content">
+
+                <article>
+                    <p>Events are a big part of every location. They help civilians loosen up and have a good time,
+                        taking a
+                        breather from their tedious and exhausting workloads. Moreover, events are made to bring people
+                        together as a community to celebrate occurances that have occurred in the location once upon a
+                        time.
+                    </p>
+
+                    <br>
+                    <h3 id="celebrationoflight">CELEBRATION OF LIGHT</h3>
+
+                    <br>
+
+                    <p>The celebration of light is a major event in Vancouver, that takes place in the summer time, on
+                        the
+                        famous English Bay beach. Beautiful fireworks light up the dark sky over the beach, while down
+                        on
+                        the beach there is music sounding with people really having a good time. The celebration goes on
+                        for
+                        three nights in a row, at the end of July. Definately attend one of the celebration nights of
+                        this
+                        event and witness a spectacular display of fireworks.</p>
+
+                    <img id="celebrationoflight" src="images/images/Celebration of Light.jpg"
+                        alt="The Celebration of Light image" title="The Celebration of Light">
+                    <img id="fireworks" src="images/images/fireworks.jpg" alt="The Celebration of Light image"
+                        title="The Celebration of Light">
+
+                    <br>
+                    <br>
+                    <h3 id="vancouvermarathon">BMO VANCOUVER MARATHON</h3>
+                    <br>
+
+                    <p>Named the largest race in the whole of Canada, BMO Vancouver Marathon is a race that passes along
+                        city landmarks, parks and beaches and more, with most of the view seen being the seemingly
+                        endless
+                        ocean waters. The race has something for everyone, a 8km race for those who cannot manage the
+                        whole
+                        race, a kid's race, as well as a half-marathon, and runners from all over the world are welcome
+                        to
+                        take part. Along the race course are sources of entertainment to keep supporters, as well as the
+                        participants passing by, in great spirit. The race occurs on the first Sunday of May each year
+                        so
+                        mark the date on your calendars !</p>
+
+                    <img id="bmomarathon" src="images/images/BMO vancouver marathon.jpg"
+                        alt="BMO Vancouver Marathon image" title="BMO Vancouver Marathon">
+                    <img id="oceanview" src="images/images/views during marathon.jpg"
+                        alt="BMO Vancouver Marathon views image" title="BMO Vancouver Marathon views">
+
+                    <br>
+                    <br>
+                    <h3 id="thepnefair">THE PNE FAIR</h3>
+                    <br>
+                    <p>This summer event has been around since the 1910s. It involves exciting shows, exhibits,
+                        amusement
+                        park rides, concerts, and so much more. To this day, the Pacific National Exhibition (PNE), is
+                        the
+                        most attended annual ticketed event in British Columbia and the location of performance for well
+                        known artists. This event truley broadcasts the city of Vancouver to the rest of Canada in a
+                        magnificent way. The fair commences around mid-August and ends around the early days of
+                        September,
+                        so everyone has time to prepare to go atleast once during this time.</p>
+
+                    <img id="pnefair" src="images/images/PNE fair.jpg" alt="The PNE Fair image" title="The PNE Fair">
+                    <img id="pneperformance" src="images/images/PNE fair artist performance.jpg"
+                        alt="The PNE Fair image" title="The PNE Fair Artist Performance">
+
+                    <br>
+                    <br>
+                    <p>Events are a big part of every location. They help civilians loosen up and have a good time,
+                        taking a
+                        breather from their tedious and exhausting workloads. In addition, events are made to bring
+                        people
+                        together as a community to celebrate occurances that have occurred in the location once upon a
+                        time.
+                    </p>
+                </article>
+
+            </section>
+        </div>
+
+        <!--===============
+
+Content section end
+
+=======================-->
+    </div>
+
+
+</body>
+
+</html>

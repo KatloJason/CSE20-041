@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+html,body{
+	height: 100%;
+}
+body {
+	background-color: #A3ADAD;
+	background-image: url(./images/images/background.jpg);
+	background-repeat: no-repeat;
+	background-position-y: top;
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+
+}
+/*Top section start*/
+
+.top-container {
+	width: 100%;
+	padding-left: 8%;
+	padding-right: 8%;
+	overflow: hidden;
+}
+
+.navbar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	z-index: 100;
+	position: static;
+	top: 0;
+}
+
+.logo {
+
+	width: 15%;
+	cursor: pointer;
+	margin: 0;
+	z-index: 1000;
+}
+
+
+.menu-icon {
+	top: 0;
+	right: 0;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.activemenu{
+	background-repeat: no-repeat;
+	cursor: pointer;
+	background-image: url(./images/images/closemenu.png);
+}
+.menus{
+	position: static;
+	top: 0;
+	right: 0;
+}
+
+nav {
+	flex: 1;
+	text-align: right;
+}
+
+nav > ul > li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+nav > ul > li > a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+}
+
+nav > ul > li > a :hover{
+     color: darkgreen;
+}
+
+
+.banner > img{
+	width: 100%;
+	display: block;
+}
+
+
+header > .text{
+	z-index: 2;
+	position: absolute;
+	min-height: 100vh;
+	width: 100%;
+}
+
+header > .text > h3 {
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+}
+
+header > .text > p{
+	font-family: 'Lobster', cursive;
+	font-family: 'Merriweather', serif;
+	max-width: 700px;
+	margin: 20px 0;
+}
+
+header >.text > h2{
+font-size: 3em;
+text-align: left;
+}
+
+/*Top section end*/
+
+
+
+
+/*Body section start*/
+
+#wrapper{
+min-height: 100%;
+position: relative;
+}
+
+body  h2 {
+	padding-top: 20px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.Stanleypark{
+	margin-top: 30px;
+	margin-left: 50px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.suspensionbridge{
+	display: inline-block;
+	padding-left: 270px;
+}
+
+.suspensionbridge > img{
+	float: right;
+	padding-top: 163px;
+}
+
+.suspensionbridge > .text{
+	position: absolute;
+	left: 525px;
+	margin-bottom: 0;
+	margin-top: 280px;
+	margin-left: 20px;
+	display: inline-block;
+     padding-top: 10px;
+	 padding-left: 2px;
+	 width: 203px;
+	 top: 500px;
+}
+
+.totempoles  img{
+	
+    margin-left: 505px;
+	cursor: pointer;
+	
+}
+
+.totempoles>div{
+	padding: 0;
+	width: 500px;
+	margin-left: 840px;
+	margin-top: -300px;
+	
+}
+
+.stanleyparktext{
+	position: absolute;
+	top: 10;
+	bottom: 0;
+	margin-bottom: 770px;
+	margin-top: 0px;
+	margin-right: 839px;
+	right: 0;
+	width: 450px;
+	
+}
+
+section.videos{
+
+	padding-top: 100px;
+	margin-top: 180px;
+	margin-left: 50px;
+}
+
+.vancouvertrip{
+	box-sizing: border-box;
+margin-left: 120px;
+}
+
+.videos > h3{
+	position: static;
+	right: 50px;
+	left: 100px;
+	font-size: 2em;
+}
+
+
+
+.newsletter > p{
+	display: inline-block;
+	font-size: 30px;
+	padding-top: 40px;
+	text-align: center;
+	font-weight: bolder;
+	font-family: 'Russo One', sans-serif;
+}
+
+.newsletter  img{
+	display: inline-block;
+	position: static;
+	width: 140px;
+	vertical-align: bottom;
+}
+
+.newsletter img:hover{
+	cursor: pointer;
+	transform:scale(0.98) ;
+}
+.newsletter{
+	text-align: center;
+}
+
+.line{
+	border: 2px solid black;
+	height: 5px;
+	border-radius: 10px;
+	background-color: black;
+}
+
+
+/*Body section end*/
+
+/*==================
+Footer section start
+====================*/
+
+footer{
+	width: 100%;
+	height: 60px;
+	display: inline-block;
+}
+
+footer::after{
+	display: table;
+	content: "";
+	clear: both;
+}
+footer  h2{
+	padding-top: 10px;
+	padding-left: 70px;
+	font-family: 'Russo One', sans-serif;
+	font-weight: bolder;
+	font-size: 25px ;
+	text-align: left;
+
+}
+
+footer  ul  li  a{
+	text-decoration: none; 
+	color: black;
+	font-size: 20px;
+	font-weight: 700;
+	
+}
+
+* {
+	list-style: none;     /*to remove the bulleting off every link*/
+}
+
+footer ul li{
+	padding-left: 70px;
+}
+
+
+
+.footer-right{
+	display: -webkit-flex;
+	display: flex;
+	flex-flow: row wrap;
+	
+}
+
+footer img{
+	display: flex;
+	position: relative;
+	width: 15%;
+	float: right;
+	cursor: pointer;
+	margin: 0;
+	z-index: 100;
+}
+
+.backtotopicon img{
+	position: relative;
+    width: 55px;
+	cursor: pointer;
+	padding-left: 10px;
+	float: left;
+}
+
+/*========
+Footer end
+==========*/
+
+
+/*===================
+content section start
+=====================*/
+
+.content{
+
+	transform: translate(-50%,-50%); /*making the content right in the middle of the page*/
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	box-sizing: border-box;
+	width: 60%;
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+/***************
+     Sidebar
+****************/
+
+.sidebar {
+	position: fixed;
+	width: 335px;
+	top: 90px;
+	left: 0;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.sidebar a{
+	display: block;
+	padding-left: 15px;
+	padding-top: 3px;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+.sidebar p{
+	font-size: 18px;
+}
+
+
+/*the color of when i hover over the link*/
+a:hover{
+	color:blueviolet;
+	transform: scale(0.98);
+}
+
+a:active{
+	text-decoration: underline;
+}
+
+a:visited{
+	text-decoration: underline;
+}
+
+
+.subsection{
+	padding-left: 50px;
+	margin-left: 25px;
+}
+
+.sub-subsection{
+	margin-left: 50px;
+}
+
+.George-Vancouver img:first-of-type{
+	width: 200px;
+}
+
+
+.George-Vancouver img:not(.George-Vancouver img:first-of-type){
+	width: 175px;
+	margin-left: 40px;
+}
+
+#newwestminster{
+	padding-top: 15px;
+	width: 500px;
+}
+
+#williamvanhorne{
+	padding-top: 15px;
+	width: 300px;
+}
+
+#ldtaylor{
+	padding-top: 15px;
+}
+
+#sawmill{
+	padding-top: 15px;
+	width: 200px;
+}
+
+#greatvancouverfire{
+	padding-top: 15px;
+	width: 300px;
+}
+
+#panamacanal{
+	padding-top: 15px;
+	width: 300px;
+}
+
+#komagatamaru{
+	padding-top: 15px;
+	width: 300px;
+}
+
+#indianroyalpolice{
+	width: 304px;
+	margin-left: 50px;
+}
+
+#seawallpathview{
+	width: 300px;
+}
+
+#horsedrawncart{
+	width: 333px;
+	margin-left: 30px;
+}
+
+#grousemountain{
+	width: 350px;
+}
+
+#chairlift{
+	margin-left: 30px;
+	width: 220px;
+}
+
+#oldgranvilleisland{
+	width: 200px;
+}
+
+#newgranvilleisland{
+	width: 290px;
+}
+
+#publicmarket{
+	width: 260px;
+}
+
+#publicmarketlink{
+	text-decoration: none;
+}
+
+#englishbay{
+	width: 300px;
+}
+
+#englishbaybeach{
+	margin-left: 20px;
+	width: 319px;
+}
+
+#queenelizabethpark{
+	width: 300px;
+}
+
+#bloedelconservatory{
+	margin-left: 20px;
+	width: 300px;
+}
+
+#vancouveraquarium{
+	width: 300px;
+}
+
+#museumofanthropology{
+	width: 300px;
+}
+
+#artdisplay{
+	margin-left: 20px;
+	width: 150px;
+}
+
+#capilanosuspensionbridge{
+	width: 343px;
+}
+
+#cliffwalk{
+	margin-left: 20px;
+	width: 280px;
+}
+
+#vancouverlookout{
+	width: 300px;
+}
+
+#chinatown{
+	width: 300px;
+}
+
+#gastown{
+	width: 300px;
+}
+
+#steamclock{
+	width: 300px;
+}
+
+#totempoles{
+	width: 300px;
+}
+
+#goldenjubilee{
+	margin-left: 20px;
+	width: 250px;
+}
+
+#japadog{
+	width: 200px;
+}
+
+#bcrolls{
+	width: 300px;
+}
+
+#insideaquarium{
+	margin-left: 20px;
+	width: 290px;
+}
+
+#salmoncandy{
+	width: 300px;
+}
+
+#dimsum{
+	width: 180px;
+}
+
+#ubc{
+	width: 300px;
+}
+
+#chancentre{
+	margin-left: 50px;
+	width: 180px;
+}
+
+#dtes{
+	width: 300px;
+}
+
+#celebrationoflight{
+	width: 300px;
+}
+
+#fireworks{
+	margin-left: 20px;
+	width: 150px;
+}
+
+#bmomarathon{
+	width: 300px;
+}
+
+#oceanview{
+	margin-left: 20px;
+	width: 300px;
+}
+
+#pnefair{
+	width: 300px;
+}
+
+#pneperformance{
+	margin-left: 20px;
+	width: 367px;
+}
+
+#potholefilling{
+	width: 300px;
+}
+
+#snowcontrol{
+	margin-left: 130px;
+	width: 300px;
+}
+
+#annualrepaving{
+	margin-left: 200px;
+	width: 300px;
+}
+
+/***********************
+         Form
+************************/
+
+label[for='region'] {
+	margin-left: 80px;
+}
+
+
+label[for='lastname'] {
+	margin-left: 25px;
+}
+
+.name {
+	text-decoration: none;
+	text-align: left;
+	color: white;
+}
+
+#subscribe {
+	width: 800px;
+	background-color: grey;
+	margin: auto;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+	border-radius: 7px;
+}
+
+.wholeform {
+	background-color: rgb(0, 0, 0, 0.5);
+	width: 800px;
+	height: 550px;
+	margin: auto;
+}
+
+form {
+	padding: 20px;
+}
+
+.firstname {
+	position: relative;
+	left: 150px;
+	top: -30px;
+	line-height: 40px;
+	border-radius: 5px;
+	padding: 10px;
+	height: 30px;
+	width: 220px;
+}
+
+.lastname {
+	position: relative;
+	left: 316px;
+	top: -61px;
+	line-height: 40px;
+	border-radius: 5px;
+	padding: 10px;
+	height: 30px;
+	width: 220px;
+}
+
+.fnamelabel {
+	position: relative;
+	left: 188px;
+	top: -33px;
+	color: white;
+	font-size: 14px;
+}
+
+.lnamelabel {
+	position: relative;
+	left: 195px;
+	top: -33px;
+	color: white;
+	font-size: 14px;
+}
+
+.email {
+	position: relative;
+	left: 150px;
+	top: -30px;
+	border-radius: 5px;
+	height: 30px;
+	width: 470px;
+	padding: 10px;
+}
+
+.options {
+	position: relative;
+	left: 150px;
+	border-radius: 5px;
+	top: -30px;
+	height: 30px;
+	width: 470px;
+
+}
+
+.region {
+	position: relative;
+	left: 150px;
+	top: -30px;
+	border-radius: 5px;
+	height: 30px;
+	width: 470px;
+	padding: 10px;
+}
+
+.suboptions {
+	color: white;
+}
+
+.button {
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+	padding: 5px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color: cadetblue;
+}
+#subbtn {
+	position: relative;
+	bottom: 25px;
+	text-decoration: none;
+	left: 300px;
+}
+
+input[type='reset']{
+position: relative;
+right:100px;
+bottom: 35px;
+}
