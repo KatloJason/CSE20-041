@@ -82,6 +82,7 @@ nav > ul > li > a{
 	text-decoration: none;
 	font-size: 18px;
 	color: #000;
+	font-weight: bold;
 }
 
 nav > ul > li > a :hover{
@@ -235,6 +236,7 @@ margin-left: 120px;
 	cursor: pointer;
 	transform:scale(0.98) ;
 }
+
 .newsletter{
 	text-align: center;
 }
@@ -367,10 +369,16 @@ content section start
 
 /*the color of when i hover over the link*/
 a:hover{
-	color:blueviolet;
+	color:oldlace;
 	transform: scale(0.98);
 }
+.sidebar a:hover{
+	color:purple;
+}
 
+footer a:hover{
+	color: purple;
+}
 a:active{
 	text-decoration: underline;
 }
