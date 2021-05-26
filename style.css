@@ -370,7 +370,7 @@ content section start
 /*the color of when i hover over the link*/
 a:hover{
 	color:oldlace;
-	transform: scale(0.98);
+	transform: scale(1);
 }
 .sidebar a:hover{
 	color:purple;
