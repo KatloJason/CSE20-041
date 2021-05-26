@@ -151,14 +151,14 @@ body  h2 {
 	margin-left: 70px;
 }
 
-.suspensionbridge > img{
+.suspensionbridge > a{
 	position: relative;
 	bottom:33px;
 	float:right;
 	padding-top:0px;
 	margin-right:30px;
 	right:23px;
-	transform: scale(10);
+	transform: scale(1);
 }
 
 .suspensionbridge > div{
