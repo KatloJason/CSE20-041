@@ -18,6 +18,7 @@ body {
 	background-image: url(./images/images/background.jpg);
 	background-repeat: no-repeat;
 	background-position-y: top;
+	background-size: 200%;
 	font-size: 18px;
 	font-family: 'Poppins', sans-serif;
 
