@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect With Us</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+
+        function cond() {
+            var valid = false;
+
+            if (document.getElementById("suboption1").checked) {
+                valid = true;
+            }
+
+            else if (document.getElementById("suboption2").checked) {
+                valid = true;
+            }
+
+
+
+            else {
+                alert("Please select atleast one subscription option");
+                return false;
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <!--=======================
+        
+        Navbar start
+    
+  =========================-->
+
+    <div class="navbar">
+
+        <img class="logo" src="images/images/Vancouverlogo.png" alt="site logo" title="site logo" />
+
+        <nav>
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="lifestyle.html">LIFESTYLE</a></li>
+                <li><a href="Events.html">EVENTS</a></li>
+                <li><a href="contacts.html">CONTACT US</a></li>
+            </ul>
+
+        </nav>
+
+    </div>
+
+    <!--=====================
+
+      Navbar end
+
+=========================-->
+
+
+    <!--=====================
+        
+        Content section start
+    
+    =========================-->
+
+
+    <div id="subscribe">
+        <h1>HELLO FRIEND !</h1>
+    </div>
+    <div class="wholeform">
+        <form action="thankyou.html" method="GET" autocomplete="on" onsubmit="return cond()">
+
+
+            <div id="name">
+                <h3 class="name">Name</h3>
+                <input type="text" class="firstname" name="firstname" placeholder="First Name" required
+                    oninvalid="setcustomvalidity('Please enter your first name')" oninput="setcustomvalidity('')"
+                    value=""><br>
+                <label for="firstname" class="fnamelabel">First Name</label>
+
+                <input type="text" class="lastname" name="lastname" placeholder="Last Name" required
+                    oninvalid="setcustomvalidity('Please enter your first name')" oninput="setcustomvalidity('')"
+                    value="">
+                <label for="" class="lnamelabel">Last Name</label>
+            </div>
+
+            <h3 class="name">Email</h3>
+            <input type="text" class="email" name="email" placeholder="example@gmail.com" required
+                oninvalid="setcustomvalidity('Please enter your email Address')" oninput="setcustomvalidity('')"
+                value="">
+
+
+            <h3 class="name">Country</h3>
+            <select name="country" id="name" class="options" required
+                oninvalid="setcustomvalidity('Please enter your country')" oninput="setcustomvalidity('')" value="">
+                <option value="" disabled="disabled" selected="selected">---Choose Option---</option>
+                <option value="CAD">Canada</option>
+                <option value="SA">South Africa</option>
+                <option value="BOTS">Botswana</option>
+                <option value="USA">USA</option>
+                <option value="other">Other</option>
+            </select>
+
+            <h3 class="name">Region</h3>
+            <input type="text" class="region" name="region" placeholder="Region" required
+                oninvalid="setcustomvalidity('Please enter your first name')" oninput="setcustomvalidity('')" value="">
+
+            <h3 class="name">Subscription Options</h3>
+
+            <input type="checkbox" id="suboption1" name="suboptions">
+            <label for="suboptions">City News - includes updates on what is
+                currently going on in the city</label>
+
+            <br>
+            <br>
+
+            <input type="checkbox" id="suboption2" name="suboptions">
+            <label for="suboptions">Tourism Industry Events - inludes updates on new additions to the industry or
+                improvements made on existing tourist attractions</label>
+            <br>
+            <br>
+            <br>
+
+
+
+            <a href="thankyou.html" id="subbtn">
+                <input type="submit" value="Subscribe" class="button">
+                <input type="reset" value="Clear" class="button">
+            </a>
+
+        </form>
+    </div>
+    </div>
+
+    <!--===============
+
+Content section end
+
+=======================-->
+</body>
+
+</html>
